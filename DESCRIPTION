@@ -1,6 +1,6 @@
 Package: wacolors
 Title: Colorblind-Friendly Palettes from Washington State
-Version: 0.2.1
+Version: 0.3.1
 Authors@R: 
     person("Cory", "McCartan", role = c("aut", "cre"),
            email = "cmccartan@g.harvard.edu")
@@ -13,15 +13,16 @@ Description: Color palettes taken from the landscapes and cities of Washington
     distinguishable by colorblind people.
 Depends: R (>= 3.0)
 Imports: graphics, grDevices, ggplot2, scales
-Suggests: knitr, rmarkdown, testthat (>= 3.0.0), colorspace, viridis,
-        rstudioapi
+Suggests: cli, rstudioapi, colorspace, viridis, knitr, rmarkdown,
+        testthat (>= 3.0.0)
 License: MIT + file LICENSE
+URL: https://github.com/CoryMcCartan/wacolors
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2021-05-14 20:42:06 UTC; cmccartan
+Packaged: 2022-03-01 15:33:19 UTC; cmccartan
 Author: Cory McCartan [aut, cre]
 Maintainer: Cory McCartan <cmccartan@g.harvard.edu>
 Repository: CRAN
-Date/Publication: 2021-05-17 07:40:02 UTC
+Date/Publication: 2022-03-01 15:50:02 UTC
